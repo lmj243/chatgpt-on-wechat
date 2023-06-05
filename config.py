@@ -12,10 +12,10 @@ available_setting = {
     # openai api配置
     "open_ai_api_key": "",  # openai api key
     # openai apibase，当use_azure_chatgpt为true时，需要设置对应的api base
-    "open_ai_api_base": "https://api.openai.com/v1",
+    "open_ai_api_base": "https://api.chatanywhere.cn/v1",
     "proxy": "",  # openai使用的代理
     # chatgpt模型， 当use_azure_chatgpt为true时，其名称为Azure上model deployment名称
-    "model": "gpt-3.5-turbo",
+    "model": "gpt-4",
     "use_azure_chatgpt": False,  # 是否使用azure的chatgpt
     "azure_deployment_id": "",  # azure 模型部署名称
     # Bot触发配置
